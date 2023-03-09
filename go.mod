@@ -1,10 +1,12 @@
-module github.com/hashicorp/vault-auth-plugin-example
+module github.com/hashicorp/vault-auth-plugin-slack
 
 go 1.19
 
 require (
+	github.com/fatih/structs v1.1.0
 	github.com/hashicorp/vault/api v1.8.2
 	github.com/hashicorp/vault/sdk v0.6.2
+	github.com/nlopes/slack v0.6.0
 )
 
 require (
@@ -15,6 +17,7 @@ require (
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/gorilla/websocket v1.2.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v0.16.2 // indirect

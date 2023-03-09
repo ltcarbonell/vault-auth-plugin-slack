@@ -16,7 +16,7 @@
 # Compiled binaries
 /bin/
 /pkg/
-vault-auth-plugin-example
+vault-auth-plugin-slack
 
 # Local development tmp
 /tmp/
@@ -24,5 +24,8 @@ vault-auth-plugin-example
 # GoLandIDE files
 .idea
 
-# docker-test.sh folder
-/vaultplg*
+# docker-test.sh generated folders
+/vaultplg/
+
+# slack token
+.slack-token
